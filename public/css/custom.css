@@ -49,7 +49,7 @@
 
 .back2
 {
-    /*background: url(../img/temple/back.jpg);*/
+    background: url(../img/temple/back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -160,4 +160,32 @@ header
     margin-right: auto;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
+}
+
+.osos_alfa
+{
+        width: 17%;
+    position: fixed;
+    top: 60vh;
+    left: 5%;
+}
+
+.card-custom
+{
+    margin-top: 10vh;
+    border-radius: 20px;
+}
+
+.button-custom
+{
+    color: white;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    border-radius: 18px;
+    margin-left: 38%;
+}
+
+.button-custom:hover
+{
+    color: white;
 }

@@ -13,8 +13,9 @@ class WebsiteController extends Controller
 		return view('Website.home');
 	}
 
-	public function add() 
+	public function register() 
 	{
+        return view('Website.register');
     }
 
     public function edit($id)

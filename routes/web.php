@@ -41,4 +41,8 @@ Route::group(['namespace' => 'Website'],function()
         'uses' => 'WebsiteController@index', 
         'as' => 'home'
     ]);
+    Route::get('/register', [
+        'uses' => 'WebsiteController@register', 
+        'as' => 'register'
+    ]);
 });
